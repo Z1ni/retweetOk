@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div>
+        <h3>Blocked Twitter User IDs</h3>
+        <ul id="blockList"></ul>
+
+        <div>
+            <label for="userId">Twitter User ID (numeric):</label>
+            <input type="text" name="userId" id="userId" pattern="^\d+$" title="Twitter User ID (numeric)">
+            <button id="addUserId">Add</button>
+        </div>
+    </div>
+
+    <div>
+        <h3>Statistics</h3>
+        <div>
+            <label>Blocked tweets:</label>
+            <span id="blockedTweets">-</span>
+        </div>
+    </div>
+
+    <script src="common.js"></script>
+    <script src="options.js"></script>
+</body>
+
+</html>

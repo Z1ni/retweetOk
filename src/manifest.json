@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "RetweetOK",
+    "description": "Twitter user tweet blocker that leaves retweets alone",
+    "author": "Mark \"zini\" Mäkinen",
+    "homepage_url": "https://github.com/Z1ni/retweetOk",
+    "version": "1.0",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "storage",
+        "*://api.twitter.com/*",
+        "https://twitter.com/*"
+    ],
+    "background": {
+        "scripts": [
+            "common.js",
+            "background.js"
+        ]
+    },
+    "options_ui": {
+        "page": "options.html",
+        "browser_style": true,
+        "chrome_style": true
+    },
+    "applications": {
+        "gecko": {
+            "id": "{49faf047-f6af-45b7-ae88-b8cce2b47e7f}"
+        }
+    }
+}
