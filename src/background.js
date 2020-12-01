@@ -105,7 +105,10 @@ function messageListener(msg) {
 
 // Intercept only timeline requests
 let apiFilter = {
-    urls: ["https://api.twitter.com/2/timeline/home*.json*"],
+    urls: [
+        "https://api.twitter.com/2/timeline/home*.json*",
+        "https://twitter.com/i/api/2/timeline/home*.json*"
+    ],
     types: ["xmlhttprequest"]
 };
 
