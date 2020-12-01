@@ -4,7 +4,7 @@
     "description": "Twitter user tweet blocker that leaves retweets alone",
     "author": "Mark \"zini\" Mäkinen",
     "homepage_url": "https://github.com/Z1ni/retweetOk",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "permissions": [
         "webRequest",
         "webRequestBlocking",
